@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Divs e Span   </title>
+
+		<!-- ***  Internal Style é colocado dentro do Head
+		          e o HTML vai aplicar essas formatações ao body  ***  	-->
+
+	    <style type="text/css">
+	    	#topo { background: blue; }
+	    	#conteudo {	background: red;}
+	    	#rodape  {	background: green;}
+	    	#assinatura {	background: pink;}
+
+	    	  /*    criamos a classe para configurar a div (evitar usar ID repetidamente )    */
+	    	.produto {	background: gray; margin: 10px;}
+	    	        
+	    </style>
+
+	</head>
+
+
+	<body>
+
+		</div>
+
+              <!--   As Divs sempre ocupam 100% da largura da tela.    -->
+		<div id="conteudo">
+
+			  <!--  a Div coloca cada objeto abaixo do outro (Elemento do tipo block)     -->
+
+			<div class="produto"> Produto 1 </div>
+			<div class="produto"> Produto 2 </div>
+			<div class="produto"> Produto 3 </div>
+		</div>
+		<div id="topo">	
+			<img src="imagens/amazon-com-br.png"  width="200">
+			<ul>
+				<li>  Home      </li>
+				<li>  Produtos  </li>
+				<li>  ContatoS  </li>
+			</ul>
+
+		<div id="rodape">	Todos os direitos <span id="conteudo">  reservados </span>   </div>
+
+        <!--  Um span após o rodapé. O Span coloca cada objeto do lado do outro(Elemento tipo line)   -->
+		<span id="assinatura"> 
+				Jamilton 
+		</span>
+
+		<span > 
+				Damasceno 
+		</span>
+
+
+
+	</body>
+
+
+</html>
